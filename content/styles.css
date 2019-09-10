@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+  color: #2f2f2f;
+  font-family: 'Titillium Web', sans-serif;
+}
+.container {
+  box-sizing: border-box;
+  height: 90vh;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 90%;
+}
+.clock {
+  border: 5px solid #02bb94;
+  border-radius: 20px;
+  color: #02bb94;
+  display: inline-block;
+  font-size: 6vw;
+  font-weight: 600;
+  left: 50%;
+  text-align: center;
+  padding: 10px 40px;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
